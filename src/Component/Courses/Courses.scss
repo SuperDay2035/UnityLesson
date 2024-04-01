@@ -1,0 +1,404 @@
+.Courses{
+
+  padding: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+  color: white;
+
+  header{
+
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+
+      max-width: 10rem;
+
+      img{
+        width: 100%;
+      };
+    }
+
+    .Login{
+
+      display: flex;
+      align-items: center;
+
+      color: white;
+
+    }
+
+
+  }
+
+  .Card_Container{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+
+    .Card{
+      border-radius: 16px;
+      margin-left: 1rem;
+      margin-top: 1rem;
+      width: 250px;
+      padding: 0;
+      background-color: #1a1a1a;
+
+      .image{
+        padding: 0;
+        height: 130px;
+        img{
+          border-top-left-radius: 12px;
+          border-top-right-radius: 12px;
+          width: 100%;
+          height: 100%;
+        }
+
+      }
+
+      .start{
+
+        margin: 1rem;
+        font-size: 1rem;
+
+        p{
+          margin: 12px 0;
+          height: 40px;
+        }
+        .soon{
+          color: grey;
+          margin: 2rem 0;
+        }
+
+        .Start-Course{
+          margin: 12px 0 ;
+          button{
+            background-color: #4646FD;
+            border-radius: 2rem;
+            padding: 0.3rem;
+            color: white;
+            font-size: 1rem;
+            margin-top: 3rem;
+          }
+
+
+        }
+
+      }
+
+    }
+
+  }
+}
+
+
+@media (max-width: 768px) {
+
+  header{
+
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0 1.2rem;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+
+      max-width: 8rem;
+
+      img{
+        width: 100%;
+      };
+    }
+
+    .Login{
+
+      display: flex;
+      align-items: center;
+
+
+    }
+
+  }
+
+  .Courses{
+
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+
+
+    .Card_Container{
+
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .Card{
+        border-radius: 16px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 250px;
+        padding: 0;
+        background-color: #1a1a1a;
+
+        .image{
+          padding: 0;
+          height: 130px;
+          img{
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+
+        .start{
+
+          margin: 1rem;
+          font-size: 1rem;
+
+          p{
+            margin: 12px 0;
+            height: 40px;
+          }
+          .soon{
+            color: grey;
+            margin: 2rem 0;
+          }
+
+          .Start-Course{
+            margin: 12px 0 ;
+            button{
+              background-color: #4646FD;
+              border-radius: 2rem;
+              padding: 0.3rem;
+              color: white;
+              font-size: 1rem;
+              margin-top: 3rem;
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 530px) {
+
+  header{
+
+    margin: 0 auto;
+    margin-top: 1.5rem;
+    padding: 0 1.2rem;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+
+    .logo{
+
+      max-width: 8rem;
+
+      img{
+        width: 100%;
+      };
+    }
+
+    .Login{
+
+      display: flex;
+      align-items: center;
+
+
+    }
+
+  }
+
+  .Courses{
+
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+
+
+    .Card_Container{
+
+
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .Card{
+        border-radius: 16px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 230px;
+        padding: 0;
+        background-color: #1a1a1a;
+
+        .image{
+          padding: 0;
+          height: 130px;
+          img{
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+
+        .start{
+
+          margin: 1rem;
+          font-size: 1rem;
+
+          p{
+            margin: 12px 0;
+            height: 40px;
+          }
+          .soon{
+            color: grey;
+            margin: 2rem 0;
+          }
+
+          .Start-Course{
+            margin: 12px 0 ;
+            button{
+              background-color: #4646FD;
+              border-radius: 2rem;
+              padding: 0.3rem;
+              color: white;
+              font-size: 1rem;
+              margin-top: 3rem;
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+}
+
+@media (max-width: 450px) {
+
+  .Courses{
+
+    padding: 0;
+    max-width: 1200px;
+    margin: 0 auto;
+    color: white;
+
+    header{
+
+      margin: 0 auto;
+      margin-top: 1.5rem;
+      padding: 0 2rem;
+      max-width: 1200px;
+      display: flex;
+      justify-content: space-between;
+
+      .logo{
+
+        max-width: 10rem;
+
+        img{
+          width: 100%;
+        };
+      }
+
+      .Login{
+
+        display: flex;
+        align-items: center;
+
+        color: white;
+
+      }
+
+
+    }
+
+    .Card_Container{
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 30px;
+
+      .Card{
+        border-radius: 16px;
+        margin-left: 1rem;
+        margin-top: 1rem;
+        width: 70%;
+        padding: 0;
+        background-color: #1a1a1a;
+
+        .image{
+          padding: 0;
+          height: 130px;
+          img{
+            border-top-left-radius: 12px;
+            border-top-right-radius: 12px;
+            width: 100%;
+            height: 100%;
+          }
+
+        }
+
+        .start{
+
+          margin: 1rem;
+          font-size: 1rem;
+
+          p{
+            margin: 12px 0;
+            height: 40px;
+          }
+          .soon{
+            color: grey;
+            margin: 2rem 0;
+          }
+
+          .Start-Course{
+            margin: 12px 0 ;
+            button{
+              background-color: #4646FD;
+              border-radius: 2rem;
+              padding: 0.3rem;
+              color: white;
+              font-size: 1rem;
+              margin-top: 3rem;
+            }
+
+
+          }
+
+        }
+
+      }
+
+    }
+  }
+
+}

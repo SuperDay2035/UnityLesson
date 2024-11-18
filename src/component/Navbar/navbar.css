@@ -1,0 +1,25 @@
+.navbar{
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.navbar .logo{
+    max-width: 10rem;
+}
+
+.navbar .logo img{
+    width: 100%;
+}
+
+.navbar .login .btn-start{
+    padding: 10px;
+    font-size: 22px;
+    color: white;
+    background-color: #4646FD;
+    border: none;
+    border-radius: 20px;
+}

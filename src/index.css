@@ -1,0 +1,25 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.App{
+  width: 100%;
+  background-color: #0B1B29;
+  height: 100%;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+.btn-start{
+  padding: 10px;
+  font-size: 22px;
+  color: white;
+  background-color: #4646FD;
+  border: none;
+  border-radius: 20px;
+}

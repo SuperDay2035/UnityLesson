@@ -1,0 +1,52 @@
+.About{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.About .section {
+    padding:50px 20px;
+    display: flex;
+    gap: 20px;
+    color: white;
+}
+
+.About .section .about-photo{
+    flex: 1 1 40rem;
+}
+
+.About .section .about-text{
+    padding: 10px 0;
+    flex: 1 1 40rem;
+}
+
+.About .section .about-text h3{
+    font-size: 3rem;
+    padding: 1rem 0;
+}
+.About .section .about-text p{
+    padding: 10px 0;
+    font-size: 2rem;
+    line-height: 1.3;
+}
+
+.About .section .about-photo img{
+    object-fit: cover   ;
+    width: 100%;
+    height: 100%;
+}
+
+.About footer{
+    padding: 40px 10px;
+    text-align: center;
+    font-size: 1.8rem;
+    color: gray;
+}
+
+@media (max-width: 768px){
+    .About .section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        color: white;
+    }
+}

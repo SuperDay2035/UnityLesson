@@ -1,0 +1,86 @@
+.login-page {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.login-form {
+    width: 100%;
+    max-width: 450px;
+    background:
+        radial-gradient(1200px 400px at -10% -20%, rgba(96, 165, 250, .15), transparent 60%),
+        radial-gradient(1200px 400px at 110% 120%, rgba(167, 139, 250, .12), transparent 60%),
+        linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+    border-radius: 20px;
+    padding: 24px;
+    margin: 96px 24px;
+}
+
+.login-form h2 {
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.login-form form {
+    width: 100%;
+}
+
+.login-form label {
+    width: 100%;
+    color: white;
+    font-size: 15px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px 10px;
+    font-size: 14px;
+    background-color: #0b1220;
+    margin: 3px 0px;
+    color: white;
+}
+
+
+.login-btn {
+    align-self: start;
+    padding: .65rem 1.25rem;
+    margin: 20px 0;
+    border: none;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: white;
+    box-shadow: 0 8px 20px var(--button-shadow), 0 0 0 2px rgba(255, 255, 255, .06) inset;
+    cursor: pointer;
+    transition: transform .2s ease, filter .2s ease, box-shadow .2s ease;
+}
+
+.login-form p {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 50px;
+}
+
+.login-form span {
+    color: white;
+}
+
+
+a {
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .login-form p {
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 50px;
+    }
+}

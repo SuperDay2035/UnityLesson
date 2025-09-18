@@ -1,0 +1,285 @@
+:root {
+    --bg: #0b0f17;
+    --text-main: #e5e7eb;
+    --text-muted: #94a3b8;
+    --accent: #60a5fa;
+    --accent-2: #a78bfa;
+    --button-shadow: rgba(96, 165, 250, .35);
+}
+
+.csharpblesson-container {
+    max-width: 1200px;
+    padding: 10px 20px;
+    margin: 0 auto;
+}
+
+
+.router-page {}
+
+.router-page ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    list-style: none;
+    gap: 10px;
+}
+
+.router-page ul li {
+    color: #94A3B8;
+    font-size: 19px;
+    cursor: move;
+}
+
+.router-page ul a {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* About Course */
+
+.csharpblesson-about-course {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    border-radius: 1.5rem;
+    background-color: red;
+    background:
+        radial-gradient(1200px 400px at -10% -20%, rgba(96, 165, 250, .15), transparent 60%),
+        radial-gradient(1200px 400px at 110% 120%, rgba(167, 139, 250, .12), transparent 60%),
+        linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+    color: var(--text);
+    isolation: isolate;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.csharpblesson-about-course .bcourse-img {
+    width: 420px;
+}
+
+
+.csharpblesson-about-course .bcourse-img img {
+    width: 100%;
+    max-height: 220px;
+    object-fit: cover;
+    border-radius: 1rem;
+    box-shadow:
+        0 12px 30px rgba(2, 6, 23, .35),
+        0 0 0 1px rgba(148, 163, 184, .15) inset;
+    transform: translateZ(0);
+    transition: transform .35s ease;
+}
+
+
+
+.csharpblesson-about-course .course-infos h2 {
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 800;
+    background: linear-gradient(-160deg, var(--accent), var(--accent-2), #4646FD);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    padding: 0;
+    text-shadow: 0 0 12px rgba(96, 165, 250, .25);
+}
+
+.csharpblesson-about-course .course-infos {
+    flex: 1;
+}
+
+.csharpblesson-about-course .course-infos p {
+    padding: 20px 0;
+    font-size: 14px;
+    color: #94A3B8;
+    line-height: 1.5;
+}
+
+.csharpblesson-about-course .course-infos .course-stats {
+    display: flex;
+    gap: 35px;
+    font-size: 16px;
+    color: #94A3B8;
+    line-height: 1.5;
+}
+
+.csharpblesson-about-course .course-infos .course-stat {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 16px;
+    color: #94A3B8;
+    line-height: 1.5;
+}
+
+.csharpblesson-about-course .course-infos .course-stats span {
+    display: flex;
+    gap: 15px;
+    font-size: 16px;
+    color: #94A3B8;
+    line-height: 1.5;
+}
+
+.start-course {
+    align-self: start;
+    margin-top: 1.5rem;
+    border: 0;
+    border-radius: 999px;
+    padding: 8px 40px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    color: white;
+    background: linear-gradient(-51deg, var(--accent) 0%, var(--accent-2) 100%);
+    box-shadow:
+        0 8px 20px rgba(96, 165, 250, .35),
+        0 0 0 2px rgba(255, 255, 255, .06) inset;
+    cursor: pointer;
+    transition: transform .15s ease, box-shadow .2s ease, filter .2s ease;
+    font-size: 14px;
+}
+
+/* About Course */
+
+
+/* Courses */
+
+.lessons-container {
+    margin-top: 20px;
+    padding: 20px;
+    border-radius: 1.5rem;
+    background-color: red;
+    background:
+        radial-gradient(1200px 400px at -10% -20%, rgba(96, 165, 250, .15), transparent 60%),
+        radial-gradient(1200px 400px at 110% 120%, rgba(167, 139, 250, .12), transparent 60%),
+        linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+    color: var(--text);
+    isolation: isolate;
+    overflow: hidden;
+    gap: 20px;
+}
+
+.modules {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+    margin: 10px auto;
+}
+
+.module {
+    min-width: 130px;
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    /* dark gradient */
+    border-radius: 16px;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #cbd5e1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+.module::-webkit-scrollbar {
+   display: none;
+}
+
+.module span {
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.module:hover {
+    transform: translateY(-8px) scale(1.05);
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    /* hover paytida ko‘k gradient */
+    color: #fff;
+    box-shadow: 0 12px 28px rgba(0, 0, 0, 0.45);
+}
+
+.lessons {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.lesson {
+    background: linear-gradient(135deg, #1e293b, #0f172a);
+    padding: 15px 20px;
+    border-radius: 12px;
+    color: #cbd5e1;
+    font-size: 16px;
+    font-weight: 500;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.lesson:hover {
+    background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+    color: #fff;
+    transform: translateX(5px);
+}
+
+
+@media(max-width: 768px) {
+
+    .csharpblesson-about-course {
+        margin-top: 30px;
+        display: block;
+        padding: clamp(1rem, 4vw, 3rem);
+        border-radius: 1.5rem;
+        background-color: red;
+        background:
+            radial-gradient(1200px 400px at -10% -20%, rgba(96, 165, 250, .15), transparent 60%),
+            radial-gradient(1200px 400px at 110% 120%, rgba(167, 139, 250, .12), transparent 60%),
+            linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+        color: var(--text);
+        isolation: isolate;
+        overflow: hidden;
+        gap: 40px;
+    }
+
+    .csharpblesson-about-course .bcourse-img img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        border-radius: 1rem;
+        box-shadow:
+            0 12px 30px rgba(2, 6, 23, .35),
+            0 0 0 1px rgba(148, 163, 184, .15) inset;
+        transform: translateZ(0);
+        transition: transform .35s ease;
+    }
+
+    .csharpblesson-about-course .bcourse-img {
+        width: 100%;
+    }
+
+    .csharpblesson-about-course .course-infos h2 {
+        font-size: clamp(1.8rem, 3vw, 2.5rem);
+        line-height: 1.2;
+        font-weight: 800;
+        background: linear-gradient(-160deg, var(--accent), var(--accent-2), #4646FD);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        padding: 15px 0 0 0;
+        text-shadow: 0 0 12px rgba(96, 165, 250, .25);
+    }
+}
+
+
+@media(max-width: 425px) {
+    .csharpblesson-about-course .course-infos .course-stats {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 10px;
+        font-size: 16px;
+        color: #94A3B8;
+        line-height: 1.5;
+    }
+}

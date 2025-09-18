@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "InterMedium"; /* o'zingiz nom berasiz */
+  src: url("../src/Fonts/InterMedium.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: "InterLight"; /* o'zingiz nom berasiz */
+  src: url("../src/Fonts/InterLight.ttf") format("truetype");
+  font-weight: 100;
+  font-style: normal;
+}
+
+html{
+  height: 100%;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  font-family: sans-serif;
+  color: white;
+}
+
+body{
+  background-color: #0B1B29;
+}

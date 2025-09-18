@@ -1,0 +1,208 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: clamp(1rem, 2vw, 1.5rem) clamp(1rem, 3vw, 2.5rem);
+    background: linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+    box-shadow: 0 5px 20px rgba(2, 6, 23, .35);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+/* Logos txt */
+.navbar .logo-txt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .logo-txt img {
+    width: 96px;
+    height: auto;
+    object-fit: contain;
+    transition: transform .3s ease;
+}
+
+.navbar .logo-txt img:hover {
+    transform: rotate(10deg) scale(1.05);
+}
+
+
+.navbar .logo-txt ul {
+    display: flex;
+    align-items: center;
+    color: white;
+    gap: 3px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .logo-txt ul li a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-family: "InterLight";
+    font-weight: 500;
+    font-size: clamp(.95rem, 1vw, 1.05rem);
+    padding: .25rem .5rem;
+    border-radius: .5rem;
+}
+
+.navbar .logo-txt ul li a:hover {
+    background: rgba(96, 165, 250, .15);
+    color: var(--accent);
+    transform: translateY(-2px);
+}
+
+
+/* Login button */
+.navbar .login button {
+    padding: .65rem 1.25rem;
+    border: none;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: white;
+    box-shadow: 0 8px 20px var(--button-shadow), 0 0 0 2px rgba(255, 255, 255, .06) inset;
+    cursor: pointer;
+    transition: transform .2s ease, filter .2s ease, box-shadow .2s ease;
+}
+
+.navbar .login p {
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.navbar .login button:hover {
+    transform: translateY(-2px);
+    filter: brightness(1.05);
+    box-shadow: 0 12px 30px var(--button-shadow), 0 0 0 2px rgba(255, 255, 255, .08) inset;
+}
+
+.navbar .login button:active {
+    transform: translateY(0);
+}
+
+.navbar .login {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+/* User Container Icon */
+.navbar .login .user-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    color: white;
+    position: relative;
+    cursor: pointer;
+}
+
+/* User Header */
+.navbar .login .user-icon .user-header {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 6px 12px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.navbar .login .user-icon .user-header:hover {
+    background: rgba(255, 255, 255, 0.2);
+    transform: scale(1.05);
+}
+
+/* Username text */
+
+.navbar .login .user-icon .username {
+    font-size: 14px;
+    font-weight: 5 00;
+}
+
+/* user dropdown menu */
+
+.navbar .login .user-icon .user-side {
+    position: absolute;
+    top: 100%;
+    right: -5px;
+    margin-top: 6px;
+    background: #222;
+    padding: 12px;
+    width: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4);
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+    z-index: 100;
+    animation: fadeDown 0.3s ease;
+}
+
+/* user dropdown ochilish */
+.navbar .login .user-icon:hover .user-side {
+    display: flex;
+}
+
+/* Menu item */
+
+.navbar .login .user-icon .menu-item {
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: linear 0.3s;
+}
+.navbar .login .user-icon a {
+    text-decoration: none;
+}
+
+.navbar .login .user-icon .menu-item:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+/* Logout item special */
+.navbar .login .user-icon .logout {
+   color: #ff6b6b;
+   font-weight: bold;
+}
+
+
+/* Login button */
+.login-btn {
+  padding: 8px 16px;
+  background: #0077ff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.login-btn:hover {
+  transform: scale(1.05), ;
+  transform: translateY(-4px);
+  box-shadow: 0px 4px 10px rgb(197, 245, 255);
+}
+
+
+/* Animatsiya */
+@keyframes fadeDown {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

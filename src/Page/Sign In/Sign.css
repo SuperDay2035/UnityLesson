@@ -1,0 +1,97 @@
+.Sign-page {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.sign-form {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    background:
+        radial-gradient(1200px 400px at -10% -20%, rgba(96, 165, 250, .15), transparent 60%),
+        radial-gradient(1200px 400px at 110% 120%, rgba(167, 139, 250, .12), transparent 60%),
+        linear-gradient(180deg, #0f172a 0%, #0b1220 100%);
+    border-radius: 20px;
+    border-radius: 20px;
+    padding: 32px 30px;
+    margin: 96px 18px 0 18px;
+}
+
+.sign-form form {
+    width: 100%;
+}
+
+.sign-form h2 {
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.sign-form p {
+    color: gray;
+    font-size: 14px;
+    text-align: center;
+    padding: 10px 0;
+    margin: 0 50px;
+}
+
+
+.sign-form .form-group {
+    max-width: 100%;
+    margin: 14px 0;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: white;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 14px;
+    background-color: #0b1220;
+    color: white    ;
+}
+
+.signup-btn {
+    font-size: 14px;
+    padding: 9px 17px;
+    align-self: start;
+    padding: .65rem 1.25rem;
+    margin: 20px 0;
+    border: none;
+    border-radius: 999px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    background: linear-gradient(135deg, var(--accent), var(--accent-2));
+    color: white;
+    box-shadow: 0 8px 20px var(--button-shadow), 0 0 0 2px rgba(255, 255, 255, .06) inset;
+    cursor: pointer;
+    transition: transform .2s ease, filter .2s ease, box-shadow .2s ease;
+
+}
+
+a{
+    color: white;
+}
+
+@media (max-width: 450px) {
+    .sign-form p {
+        color: gray;
+        font-size: 12px;
+        text-align: center;
+        padding: 10px 0;
+        margin: 0 50px;
+    }
+
+}
